@@ -129,15 +129,18 @@ int main() {
 				break;
 			}
 			case'4': {
-				return 0;
+				return 0;
 			}
 			default: {
 				cout << "Invalid Option!!" << endl;
 				break;
 			}
+			}
 		}
-	
-
+		catch (exception& e) {
+			cout << "Check for the values entered." << endl;
 		}
 	}
+
+	return 0;
  }
