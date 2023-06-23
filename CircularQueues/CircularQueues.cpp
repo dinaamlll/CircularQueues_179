@@ -87,6 +87,8 @@ public:
 				FRONT_position++;
 			}
 
+			FRONT_position = 0;
+
 
 		}
 	}
